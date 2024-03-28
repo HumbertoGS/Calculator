@@ -11,7 +11,7 @@ const Calculator = () => {
   return (
     <>
       <input type="text" id="input" className="input-display" disabled />
-      <div className="display">
+      <div className="display d-flex flex-column justify-content-between align-items-end">
         <label className="input">{input}</label>
         <label className="output">{output}</label>
       </div>
